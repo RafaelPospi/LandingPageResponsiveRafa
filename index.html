@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;0,800;1,300..800;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="main-bg">
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label  class="close-menu-label" for="close-menu" Title="close menu"></label>
+
+    <aside class="menu white-bg">
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;">
+          <a href="#home">HOME</a>
+        </h1>
+
+        <nav>
+          <ul onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#grid-one">Grid-one</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#grid-two">Grid-two</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Seja um Desenvolvedor Completo!</h2>
+          <p>
+            Essa é uma trilha de especialização que vai te tornar um verdadeiro
+            Desenvolvedor Web Full Stack, dominando todas as principais
+            tecnologias usadas tanto para o Front End quanto para o Backend e
+            ainda para Mobile, construindo projetos práticos e exercícios
+            aplicados à realidade das empresas. Tudo o que você precisa para se
+            tornar um Desenvolvedor Full Stack em um único lugar.
+          </p>
+        </div>
+        <div class="intro-img">
+          <img
+            src="./assets/img/javascript.svg"
+            alt="um desenho de pessoas segurando logos das linguagem , html, css e js"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+      <div class="main-content top3-content">
+        <h1>Top 3 Jobs</h2>
+        <h3>javascript</h3>
+        <p>
+          Se você quiser sair do zero até o nível avançado e aprender
+          absolutamente tudo o que você precisa para usar Ciência de Dados para
+          se destacar no Mercado de Trabalho e poder entrar nas carreiras mais
+          promissoras e desejadas nas empresas.
+        </p>
+        <h3>HTML e CSS</h3>
+        <p>
+          Você vai aprender não só os fundamentos básicos, intermediários e
+          avançados de HTML e CSS, como também vai aprender a integrar com os
+          principais frameworks.
+        </p>
+        <h3>Python</h3>
+        <p>
+          Você vai aprender a linguagem de Programação que mais cresce no Mundo
+          para fazer automações incríveis, desenvolver sites, fazer análises de
+          dados, trabalhar com Ciência de Dados, Inteligência Artificial, mesmo
+          que você nunca tenha tido nenhum contato com Programação na vida.
+        </p>
+      </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My grid</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid">
+          <article>
+            <h3>Conteúdo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              voluptates necessitatibus repellendus nam dignissimos suscipit
+              similique tempore, harum est, ea temporibus perferendis quisquam
+              ad consequuntur. Dicta inventore cupiditate maiores sint!
+            </p>
+          </article>
+
+          <article>
+            <h3>Conteúdo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              voluptates necessitatibus repellendus nam dignissimos suscipit
+              similique tempore, harum est, ea temporibus perferendis quisquam
+              ad consequuntur. Dicta inventore cupiditate maiores sint!
+            </p>
+          </article>
+
+          <article>
+            <h3>Conteúdo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              voluptates necessitatibus repellendus nam dignissimos suscipit
+              similique tempore, harum est, ea temporibus perferendis quisquam
+              ad consequuntur. Dicta inventore cupiditate maiores sint!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">Gallery</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid-gallery">
+          <div class="gallery-img">
+            <img src="./assets/img/homemsentado.jpg" />
+          </div>
+
+          <div class="gallery-img">
+            <img src="./assets/img/computer00.png" />
+          </div>
+
+          <div class="gallery-img">
+            <img src="./assets/img/as-linguagens-de-programacao.png" />
+          </div>
+
+          <div class="gallery-img">
+            <img src="./assets/img/Tecnologia-da-informacao-mao.jpg" />
+          </div>
+
+          <div class="gallery-img">
+            <img src="./assets/img/pessoarealsentada.jpg" />
+          </div>
+
+          <div class="gallery-img">
+            <img src="./assets/img/unnamed.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">My grid 2</h2>
+        <p class="grid-description">Uma breve descrição</p>
+        <div class="grid">
+          <article>
+            <h3>Conteúdo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              voluptates necessitatibus repellendus nam dignissimos suscipit
+              similique tempore, harum est, ea temporibus perferendis quisquam
+              ad consequuntur. Dicta inventore cupiditate maiores sint!
+            </p>
+          </article>
+
+          <article>
+            <h3>Conteúdo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              voluptates necessitatibus repellendus nam dignissimos suscipit
+              similique tempore, harum est, ea temporibus perferendis quisquam
+              ad consequuntur. Dicta inventore cupiditate maiores sint!
+            </p>
+          </article>
+
+          <article>
+            <h3>Conteúdo</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+              voluptates necessitatibus repellendus nam dignissimos suscipit
+              similique tempore, harum est, ea temporibus perferendis quisquam
+              ad consequuntur. Dicta inventore cupiditate maiores sint!
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+      <div class="main-content top3-content">
+        <h2>Pricing</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+          debitis sequi, molestias consectetur ipsam rem ducimus quisquam natus
+          provident maiores? Itaque placeat optio recusandae unde. Dolore
+          voluptatem aliquam sint tempore.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+          deserunt hic, soluta ullam eaque ipsa fugiat rem aliquam neque odit
+          atque totam quis facilis ratione temporibus ducimus delectus illum
+          omnis.
+        </p>
+
+
+        <div class="responsive-table">
+          <table>
+            <caption>
+              Pricing Table
+            </caption>
+
+            <thead>
+              <tr>
+                <th>Tittle 1</th>
+                <th>Tittle 2</th>
+                <th>Tittle 3</th>
+                <th>Tittle 4</th>
+                <th>Tittle 5</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+              <tr>
+                <td>Content 1</td>
+                <td>Content 2</td>
+                <td>Content 3</td>
+                <td>Content 4</td>
+                <td>Content 5</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>testando</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+
+
+      </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+      <div class="main-content intro-content">
+        <div class="intro-text-content">
+          <h2>Fale Conosco</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta cupiditate, quis id molestias veritatis quam? Error numquam adipisci, reprehenderit facere excepturi officiis minima, cumque atque illum sunt commodi tenetur voluptates.
+          </p>
+        </div>
+        <div class="intro-img">
+          <img
+            src="./assets/img/contactimg.svg"
+            alt="um desenho de pessoas segurando logos das linguagem , html, css e js"
+          />
+        </div>
+      </div>
+        <div class="contact-form main-bg">
+          <fieldset class="form-grid">
+            <legend class="form-group">Contact me</legend>
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" name="first-name" id="first-name" placeholder="Your name">
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" name="email" id="email" placeholder="Your e-mail">
+            </div>
+            <div class="form-group full-width">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+            </div>
+            <div class="form-group full-width">
+              <button type="submit">Send Message</button>
+            </div>
+  
+          </fieldset>
+        </div>
+      </div>
+    </section>
+
+      <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank" href="#">Esse é um footer p/ linkar algum site/pagina</a></p>
+      </footer>
+
+    <a class="back-to-top" href="#">⮞</a>
+
+  </body>
+
+</html>
